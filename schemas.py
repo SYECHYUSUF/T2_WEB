@@ -17,4 +17,4 @@ class ItemResponse(ItemBase):
     id: int = Field(..., description="ID unik item")
 
     class Config:
-        from_attributes = True  # Pydantic v2 (orm_mode in Pydantic v1)
+        from_attributes = True  
